@@ -12,7 +12,6 @@ import lombok.Setter;
 @NoArgsConstructor
 public class CustomerEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "custid")
     private Integer custId;
 

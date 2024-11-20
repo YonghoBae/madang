@@ -13,7 +13,6 @@ import lombok.Setter;
 @NoArgsConstructor
 public class BookEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long bookId;
 
     @Column(nullable = false, length = 40)

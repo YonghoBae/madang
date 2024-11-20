@@ -14,7 +14,6 @@ import java.util.Date;
 @NoArgsConstructor
 public class VwOrdersEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "orderid") // 기본 키 매핑
     private Integer orderId;
 

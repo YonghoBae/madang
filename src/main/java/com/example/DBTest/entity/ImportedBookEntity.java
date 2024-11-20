@@ -12,7 +12,6 @@ import lombok.Setter;
 @NoArgsConstructor
 public class ImportedBookEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "bookid")
     private Integer bookId;
 

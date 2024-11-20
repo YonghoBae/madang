@@ -14,7 +14,6 @@ import java.util.Date;
 @NoArgsConstructor
 public class OrdersEntity {
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "orderid")
     private Integer orderId;
 
